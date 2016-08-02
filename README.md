@@ -19,8 +19,12 @@ Setting script file.
 
 Test with `/etc/zabbix/bin/mroonga-status.sh`.
 
-    $ zabbix_agentd -t memcached.stat[--host,localhost,--port,11211,--item,version]
-    memcached.stat[--host,localhost,--port,11211,--item,version] [t|1.4.13]
+    alloc_count    : 1147104
+    n_queries      : 124014
+    cache_hit_rate : 0.0
+    Send key "mroonga.status.alloc_count" with value "1147104"
+    Send key "mroonga.status.n_queries" with value "124014"
+    Send key "mroonga.status.cache_hit_rate" with value "0.0"
 
 
 ### Setting zabbix server side
